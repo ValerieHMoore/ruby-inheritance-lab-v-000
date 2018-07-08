@@ -10,7 +10,7 @@ attr_accessor :knowledge
   end
   
   def knowledge
-    @knowledge.include?(student)
+    student.knowledge
   end
   
 end
