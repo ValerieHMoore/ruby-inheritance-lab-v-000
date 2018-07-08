@@ -10,7 +10,8 @@ attr_accessor :knowledge
   end
   
   def knowledge
-    student.knowledge
+    #returns that student's knowledge array
+    
   end
   
 end
