@@ -9,7 +9,7 @@ class Student < User
   end
   
   def knowledge
-    first_name.last_name.knowledge
+    first_name.knowledge
   end
   
 end
