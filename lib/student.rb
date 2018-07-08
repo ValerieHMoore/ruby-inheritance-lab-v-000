@@ -9,7 +9,7 @@ class Student < User
   end
   
   def knowledge
-    student.KNOWLEDGE
+    @knowledge.include?(student)
   end
   
 end
